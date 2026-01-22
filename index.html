@@ -57,17 +57,16 @@
             box-sizing: border-box;
         }
 
-        /* ส่วนที่แก้ไขสำหรับมือถือ */
         @media (max-width: 1100px) { 
             .content-wrapper { 
                 flex-direction: column; 
                 text-align: center;
-                justify-content: flex-start !important; /* เปลี่ยนเพื่อให้คุมระยะจากด้านบนได้ */
-                padding-top: 15vh; /* ดันเนื้อหาทั้งหมดลงมาจากขอบบน 15% ของความสูงหน้าจอ */
+                justify-content: flex-start !important;
+                padding-top: 15vh;
             }
             .header-section { 
-                margin-top: 20px; /* เพิ่มระยะเฉพาะตัวหนังสือ */
-                margin-bottom: 50px; /* ระยะห่างระหว่างตัวหนังสือกับกล่องปุ่ม */
+                margin-top: 20px;
+                margin-bottom: 50px;
                 flex: none; 
                 width: 100%;
                 min-width: auto; 
